@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial;
+	font-size: 15px;
+	line-height: 1.7em;
+	color: #ECF1EB;
+	background-color: #6D726C;
+	padding: 45px;
+}
+
+/* text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.15em;
+	color: #ECF1EB;
+}
+h1 {
+	font-size: 40px;
+	padding: 4px;
+	font-variant: small-caps;
+	letter-spacing: .4em;
+	line-height: 2.5em;
+	text-align: center;
+}
+h2 {
+	font-size: 30px;
+	padding: 7px;
+	font-variant: small-caps;
+	letter-spacing: 0.3em;
+	border-bottom-width: 5px;
+	border-bottom-style: inset;
+	border-bottom-color: #46609A;
+	font-style: italic;
+}
+
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #ECF1EB;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #ECF1EB;
+	text-decoration: none;
+}
+a:hover {
+	color: #CA1516;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 13px;
+}
+ol {
+	margin-left: 16px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #CA1516 2px;
+}
+td {
+	padding: 7px;
+	border: solid #CA1516 2px;
+}
+th {
+	font-weight: bold;
+	background-color: #CA1516;
+	text-align: center;
+	padding: 7px;
+	border: solid #CA1516 2px;
+}
+
+/* border styles (hr and iframe)------------------------------------ */
+hr {
+	border: solid #ECE01A 1.5px;
+}
+
+
+iframe {
+	border: solid #CA1516 5px;
+	margin: 9px;
+}

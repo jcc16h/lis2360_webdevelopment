@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/* Jessica Cox, April, 19 2019 */
+
+/* --------------------------- HTML TAG STYLES ----------------------------- */
+body{
+        margin: 0px;
+        padding: 0px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+        font-size: 15px;
+        margin-bottom: 20px;
+        line-height: 1.4em;
+}
+h1 {
+        padding: 20px 0;
+}
+h3 {
+        padding: 20px 0;
+        font-weight: bold;
+}
+a:link {
+	color: #CA1516;
+}
+a:visited {
+	color: #CA1516;
+}
+a:hover {
+	color: #46609A;
+	text-decoration: none;
+}
+
+hr{
+    color: #ECE01A;
+}
+
+table{
+    margin: 3px;
+}
+/* -------------------------- PAGE SECTIONS ---------------------------- */
+
+#splash{
+        background: url(images/color.jpg) no-repeat center top fixed;
+        background-size: cover;
+        height: 1000px;
+        color: #ECF1EB;     
+}
+
+#overview{
+        padding: 40px 0 60px 0;
+        background-color: #46609A;
+        color: #ECF1EB;
+}
+
+#video{
+        background: url(images/grayapps.jpg) no-repeat center top fixed;
+        background-size: cover;
+        padding: 40px 0 60px 0;
+        color: #ECF1EB;
+}
+
+#table{
+        padding: 40px 0 60px 0;
+        background-color: #CA1516;
+        color: #ECF1EB;
+}
+
+#references{
+        background: url(images/blueapps.jpg) no-repeat center top fixed;
+        background-size: cover;
+        padding: 40px 0 60px 0;
+        color: #ECF1EB;
+}
+
+#author {
+        padding: 20px 0;
+        background-color: #6D726C;
+        color: #ECF1EB; 
+}
+
+#footer{
+        padding: 20px 0;
+        background-color: #6D726C;
+        color: #ECF1EB;
+}
+
+/* ---------------- CONTAINER STYLES ----------------- */
+.container {
+        width: 960px; 
+        margin: 0 auto;
+        overflow: hidden;
+}
+.half_container { 
+        width: 50%;
+        float: left;
+        overflow: hidden;
+}
+
+/* ---------------- TITLE PAGE STYLES ------------------- */
+
+#title-page{
+        width: 100%;
+        padding-top: 200px;
+        color: #FAFDFE;
+        text-align: center;
+}
+#title-page h1 {
+        font-family: 'Amaranth', sans-serif; 
+        font-size: 80px; 	
+        text-shadow: 3px 3px #000; /
+}
+#title-page h3 {
+        font-size: 1em;
+        font-style: italic;
+        margin: 0 40px;
+        padding-bottom: 20px;
+        text-shadow: 2px 2px #000;
+}
+
+/* ----------------- NAVIGATION BAR STYLES -------------------*/ 
+
+#navbar{
+	position: fixed; 
+	top: 0;
+	width: 100%;
+	height: 54px;
+	background-color: rgba(255, 255, 255, 0.8); 
+}	
+ul#menu {
+	list-style: none; 
+	padding-top: 0px;
+} 
+ul#menu li {
+	float: left; 
+	padding-bottom: 20px;
+} 
+ul#menu li a.button {
+	font-size: 16px;
+	text-decoration: none;
+	padding: 20px 50px 20px 50px;
+}
+ul#menu li a.button:hover {
+	background-color: rgba(42, 188, 238, 0.1);
+}
+
+/* ------------------- FOOTER CREDITS --------------------- */
+
+#credits {
+        text-align: center;	
+}
+#credits table{      
+        margin: 0 auto;		
+}
+#credits p {
+        font-size: .8em;
+        margin: 10px 0;
+}
+
+/* ---------------------- MISC -----------------------------*/
+
+.fltright{
+	float:right;
+	margin: 21px;
+}
+/* ------------------- AUTHOR CREDITS --------------------- */
+#author {
+        text-align: center;	
+
+/* ------------------- FOOTER CREDITS --------------------- */
+
+#credits {
+        text-align: center;	
+}
+#credits table{      
+        margin: 0 auto;
+}
+#credits p {
+        font-size: 1em;
+        margin: 10px 0;
+}
+
+/* ---------------------- MISC -----------------------------*/
+
+.fltright{
+	float:right;
+	margin: 20px;
+}
+
